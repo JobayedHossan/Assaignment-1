@@ -8,16 +8,13 @@
   font-optical-sizing: auto;
 }
 /* Navbar Style */
-header{
-  width: 90%;
-  margin: auto;
-}
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  width: 100%;
+    width: 90%;
+  margin: auto;
 }
 .navbar button{
   padding: 10px 20px;
@@ -45,4 +42,47 @@ header{
 /* Banner Style */
 .hero-section{
   background-image: url("source/B13-A01-Knowledge-Vault/assets/hero-bg.png");
+}
+.hero-content{
+  text-align: center;
+  color: white;
+  padding: 80px 100px;
+}
+.hero-content h1{
+  font-size: 72px;
+}
+.hero-content h1 span{
+  color: #30B868;
+}
+.hero-content .open{
+  background-color: #ffffff;
+  display: flex;
+  margin: auto;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: #30B868;
+  border: none;
+  cursor: pointer;
+}
+.hero-content .open img{
+  margin-right: 5px;
+}
+.hero-content .buttons{
+  margin-top: 20px;
+}
+.hero-content .buttons .button-1{
+  background-color: #30B868;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  margin-right: 8px;
+  color: white;
+}
+.hero-content .buttons .button-2{
+  background: transparent;
+  padding: 12px;
+  color: white;
+  border: none;
+  outline: 1px solid white;
+  cursor: pointer;
 }
