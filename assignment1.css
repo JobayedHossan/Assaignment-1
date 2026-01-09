@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Navbar Style */
+header{
+  width: 90%;
+  margin: auto;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+}
+.navbar button{
+  padding: 10px 20px;
+  background-color: #30B868;
+  border: none;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  cursor: pointer;
+}
+.list-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.list-item li{
+  margin-left: 20px;
+}
+.list-item li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Banner Style */
+.hero-section{
+  background-image: url("source/B13-A01-Knowledge-Vault/assets/hero-bg.png");
+}
