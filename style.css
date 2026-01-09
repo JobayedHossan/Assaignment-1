@@ -183,3 +183,26 @@
   cursor: pointer;
   margin-bottom: 16px;
 }
+ /* Footer Section Style */
+  footer{
+    height: 250px;
+    margin-top: 100px;
+    background-color: #000000;
+  }
+  .footer-content{
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+  }
+  footer p{
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 16px;
+  }
+  .social p{
+    margin-bottom: 10px;
+  }
