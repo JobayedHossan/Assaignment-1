@@ -133,6 +133,7 @@
   width: 90%;
   margin: auto;
   margin-top: 72px;
+  margin-bottom: 72px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,4 +154,32 @@
   display: flex;
   gap: 10px;
   margin-top: 10px;
+}
+
+/* Ready Section Style */
+.ready-section{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 40px 0;
+  border-radius: 12px;
+}
+.ready-section h2{
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.ready-section p{
+  color: #627382;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.ready-section button{
+  padding: 12px;
+  background-color: #30B868;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 16px;
 }
